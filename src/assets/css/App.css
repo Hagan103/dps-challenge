@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+
+body {
+  background: #f1f1f2;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  overflow-x: hidden;
+  color: #212121;
+}
+.card {
+  border: none;
+  border-radius: 0;
+}
+.card-body {
+  padding: 1.4rem 2rem;
+}
+.card-title {
+  color: #2d333f;
+  margin-bottom: 0.9375rem;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem !important;
+  line-height: 2.75rem;
+  margin: 0.35rem 0;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.625rem !important;
+  line-height: 2.25rem;
+  margin: 0.35rem 0;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem !important;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.score-box h6 {
+  margin-top: 0.25rem;
+  background: #73bf00;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.score-total {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.restaurant-name {
+  padding-bottom: 0.25rem;
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+.btn-primary {
+  background-color: #73bf00;
+  border: 0;
+  color: white;
+  width: 100%;
+  padding: 0.625rem;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background-color: #629f07;
+}
+.btn-primary:active {
+  background-color: #5b9603 !important;
+}
+.score-user {
+  color: #73bf00 !important;
+  font-size: 0.875rem;
+}
+.error {
+  color: #ec4654;
+  font-size: 0.825em;
+}
+.avatar {
+  border-radius: 50%;
+}
+.rating-tooltip {
+  position: relative;
+  display: inline-block;
+  visibility: visible;
+}
+.rating-tooltip .rating-tooltiptext {
+  visibility: hidden;
+  width: 7.5rem;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.3125rem 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -3.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.rating-tooltip .rating-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.3125rem;
+  border-width: 0.3125rem;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.rating-tooltip:hover .rating-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.loading, .invalid-index {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 1.4rem !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-left: -4rem;
+  margin-top: -4rem;
+}
