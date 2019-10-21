@@ -169,7 +169,7 @@ class Restaurant extends React.Component {
       }
       return rating;
     }
-    
+
   render() {
     /* display when loading */
     if (!this.state.isLoaded) {
@@ -270,7 +270,6 @@ class Restaurant extends React.Component {
                       </div>
                     </div>
                   ))}
-                  ;
                 </div>
               </div>
             </div>
