@@ -9,10 +9,10 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Restaurant paths:
-Attica Index = http://localhost:3000/0
-The French Laundry Index = http://localhost:3000/1
-Blue Hill at Stone Barns Index = http://localhost:3000/2
+Restaurant paths:<br />
+Attica Index = http://localhost:3000/0 <br />
+The French Laundry Index = http://localhost:3000/1 <br />
+Blue Hill at Stone Barns Index = http://localhost:3000/2 <br />
 Random result - http://localhost:3000/rand
 
 The page will reload if you make edits.<br />
